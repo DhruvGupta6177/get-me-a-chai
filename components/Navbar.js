@@ -10,7 +10,7 @@ import { useState } from "react"
 
 const Navbar = () => {
     const { data: session } = useSession()
-    const [showdropdown, setshowdropdown] dsfkldnwfkodn= useState(false)
+    const [showdropdown, setshowdropdown] = useState(false)
     
     return (
         <nav className='bg-gray-900 text-white justify-between flex items-center px-4 h-16'>
