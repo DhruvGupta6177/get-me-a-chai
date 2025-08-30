@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 
-pofmoecieçepwim rnice
+
 import { useSession, signIn, signOut } from "next-auth/react"
 import Link from 'next/link'
 import { useState } from "react"
@@ -9,7 +9,7 @@ import { useState } from "react"
 
 const Navbar = () => {
     const { data: session } = useSession()
-    const [showdropdown, setshowdropdown] = useState(false)
+    const [showdropdown, setshowdropdown] dsfkldnwfkodn= useState(false)
     
     return (
         <nav className='bg-gray-900 text-white justify-between flex items-center px-4 h-16'>
